@@ -1,10 +1,6 @@
-import { useRouter } from "next/router";
 import Link from "next/link";
 
 export default function About() {
-  const router = useRouter();
-  const { id } = router.query;
-
   return (
     <div>
       <h1>About Page</h1>
