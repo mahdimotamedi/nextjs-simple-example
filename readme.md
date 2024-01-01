@@ -1,6 +1,6 @@
 # NextJS Simple Example
 
-This is a simple next js example to learn how Next work.
+This is a simple next js example to learn the basics.
 
 ## Installation
 
