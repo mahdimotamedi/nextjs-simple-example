@@ -1,8 +1,8 @@
-import { getDynamicData } from "../lib/data";
+import { getData } from "../lib/data";
 import Link from "next/link";
 
 export async function getStaticProps() {
-  const staticData = await getDynamicData();
+  const staticData = await getData();
   return {
     props: {
       staticData,
